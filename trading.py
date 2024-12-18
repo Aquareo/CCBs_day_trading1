@@ -188,7 +188,7 @@ def online_day_trading():
             print("总资产为：", asset)
             print("trading cost",trading_cost)
             # Pause for 25 seconds before the next transaction
-            time.sleep(55)  # Pause for 30 seconds
+            time.sleep(99)  # Pause for 30 seconds
 
         else:
             # If it's outside of trading hours, wait and check again after a short interval
