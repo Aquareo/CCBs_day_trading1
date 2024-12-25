@@ -3,7 +3,7 @@ name: Update Website
 on:
   schedule:
     # 每天 9:30 AM (UTC+8) 执行 day_trading.py
-    - cron: '30 1 * * *'  # 每天 UTC 1:30 执行（即北京时间 9:30）
+    - cron: '0 0 * * *'  # 每天 UTC 1:30 执行（即北京时间 9:30）
   push:
     branches:
       - main  # 只要 main 分支有更新，自动触发部署
